@@ -27,20 +27,13 @@ chown 0:0 /var/empty
 # Extra stuff
 apk add mtd-utils-ubi
 apk add bottom
-#apk add neofetch
+apk add neofetch
 apk add e2fsprogs-extra
 
 # Install iptables-legacy
 apk add iptables-legacy
 rc-update add iptables-legacy
 ln -s /usr/sbin/iptables-legacy /usr/sbin/iptables
-
-# Install tailscale
-apk add tailscale
-rc-update add tailscale default 
-
-# install wireguard
-apk add wireguard-tools
 
 # Install Chrony
 apk add chrony
