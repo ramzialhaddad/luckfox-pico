@@ -1,8 +1,10 @@
 # luckfox-pico
 
-Linux systems for LuckFox Pico series, including
+~~Linux systems for LuckFox Pico series, including
 Pico Mini b, Pico Plus and Pico Pro Max (all models with SPI flash).
-Pico Ultra, Pico Ultra W (with EMMC)
+Pico Ultra, Pico Ultra W (with EMMC)~~
+
+Only for Pico Pro Max (SD Card), also don't use this. Armbian is better and seems to be faster than this.
 
 Currently only [Alpine Linux](https://alpinelinux.org/) is available.
 
